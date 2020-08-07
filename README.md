@@ -40,11 +40,11 @@ An Event Listener is a procedure or function that waits for an event to occur.
 
 4. Why would we convert a NodeList into an Array?
 
-It makes accessing data a lot easier as you can use forEach.
+It makes accessing data a lot easier as you can execute array methods on it.
 
 5. What is a component?
 
-A component is used to build and style content on the webpage.
+A component is a reuseable piece of code used to build and style content on a webpage.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
