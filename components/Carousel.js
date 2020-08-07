@@ -32,6 +32,7 @@ function carouselComponent() {
   rightButton.classList.add("right-button");
 
   const imgContainer = document.createElement("img");
+  imgContainer.classList.add("img-container");
 
   imgContainer.src = imageFactory[carouselImageId];
   function next() {
@@ -61,3 +62,17 @@ function carouselComponent() {
 
 const carouselContainer = document.querySelector("div.carousel-container");
 carouselContainer.appendChild(carouselComponent());
+
+gsap.from(".right-button", {
+ duration: 4,
+ x: 300,
+ ease: "bounce",
+ opacity: 0,
+});
+
+gsap.from(".left-button", {
+ duration: 4,
+ x: -300,
+ ease: "bounce",
+ opacity: 0,
+});
