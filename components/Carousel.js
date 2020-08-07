@@ -52,7 +52,6 @@ function carouselComponent() {
     imgContainer.src = imageFactory[carouselImageId];
   }
 
-  
   rightButton.onclick = next;
   leftButton.onclick = previous;
 
