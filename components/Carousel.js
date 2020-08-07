@@ -19,17 +19,28 @@ function carouselComponent() {
   const leftButton = document.createElement("div");
   leftButton.classList.add("left-button");
 
+  const imgContainer = document.createElement("div");
+  imgContainer.classList.add("img-container");
+
   const mountainsImg = document.createElement("img");
-  mountainsImg.classList.add("mntsimg-container");
+  mountainsImg.classList.add("mountainsImg");
+     mountainsImg.src = "https://tk-assets.lambdaschool.com/ba687af4-3a1e-43d7-87b2-f30453264c9d_mountains.jpeg";
+     imgContainer.appendChild(mountainsImg);
 
   const computerImg = document.createElement("img");
-  computerImg.classList.add("compimg-container");
+  computerImg.classList.add("computerImg");
+     computerImg.src = "https://tk-assets.lambdaschool.com/8aa075b0-67cf-47ce-9a7f-8cc9d754675d_computer.jpeg";
+     imgContainer.appendChild(computerImg);
 
   const treesImg = document.createElement("img");
-  treesImg.classList.add("treesimg-container");
+  treesImg.classList.add("treesImg");
+     treesImg.src = "https://tk-assets.lambdaschool.com/5b7441c6-6e4b-4feb-a4ec-8dd2eb76238a_trees.jpeg";
+     imgContainer.appendChild(treesImg);
 
   const turntableImg = document.createElement("img");
-  turntableImg.classList.add("turntimg-container");
+  turntableImg.classList.add("turntableImg");
+     turntableImg.src = "https://tk-assets.lambdaschool.com/0b770382-d0eb-4465-8bf2-692a79fcda71_turntable.jpeg";
+     imgContainer.appendChild(turntableImg);
 
   const rightButton = document.createElement("div");
   rightButton.classList.add("right-button");

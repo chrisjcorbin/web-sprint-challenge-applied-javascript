@@ -40,22 +40,28 @@
  function articleMaker(object) {
    const articleCard = document.createElement("div");
    articleCard.classList.add("card");
+
    const articleHeadline = document.createElement("div");
    articleHeadline.classList.add("headline");
    articleHeadline.textContent = object.headline;
    articleCard.appendChild(articleHeadline);
+
    const authorBox = document.createElement("div");
    authorBox.classList.add("author");
+
    const authorFrame = document.createElement("div");
    authorFrame.classList.add("img-container");
+
    const authorImg = document.createElement("img");
    authorImg.src = object.authorPhoto;
    authorFrame.appendChild(authorImg);
    authorBox.appendChild(authorFrame);
+
    const authorName = document.createElement("span");
    authorName.textContent = "By " + object.authorName;
    authorBox.appendChild(authorName);
    articleCard.appendChild(authorBox);
+   
    articleCard.addEventListener("click", () => {
      console.log(articleHeadline.textContent);
    });
