@@ -36,3 +36,6 @@ function carouselComponent() {
 
   return carousel;
 }
+
+const carouselContainer = document.querySelector("div.carousel-container");
+carouselContainer.appendChild(carouselComponent());
