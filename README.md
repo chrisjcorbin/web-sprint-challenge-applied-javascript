@@ -28,13 +28,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+The Document Object Model is an interface to webpages that allow programs to change document structure, style, and content.
+
 2. What is an event?
+
+An event is something that occurs due to user action or as a state change from elements of the DOM structure.
 
 3. What is an event listener?
 
+An Event Listener is a procedure or function that waits for an event to occur.
+
 4. Why would we convert a NodeList into an Array?
 
+It makes accessing data a lot easier as you can use forEach.
+
 5. What is a component?
+
+A component is used to build and style content on the webpage.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
